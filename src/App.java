@@ -8,7 +8,7 @@ import service.VendingMachine;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Main {
+public class App {
     public static void main(String[] args) {
         PrType snack = new PrType("Snack");
         PrType chocolate = new PrType("Chocolate");
