@@ -1,2 +1,4 @@
-package service;public class Holder {
+package service;
+
+public class Holder {
 }
