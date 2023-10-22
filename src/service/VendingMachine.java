@@ -2,21 +2,26 @@ package service;
 
 import domain.Product;
 
+import java.util.ArrayList;
 import java.util.List;
 
 public class VendingMachine {
     private Holder holder;
-    private CoinDispanser coinDispanser;
+    private CoinDispenser coinDispenser;
     private List<Product> productList;
+    private List<Product> purchasedProducts;
 
-    public VendingMachine(Holder holder, CoinDispanser coinDispanser, List<Product> productList) {
+    public VendingMachine(Holder holder, CoinDispenser coinDispenser, List<Product> productList) {
         this.holder = holder;
-        this.coinDispanser = coinDispanser;
+        this.coinDispenser = coinDispenser;
         this.productList = productList;
+        this.purchasedProducts = new ArrayList<>();
     }
 
     public Product buyProduct(int index) {
-        return this.productList.get(index);
+        Product product = this.productList.get(index);
+        this.purchasedProducts.add(product);
+        return product;
     }
 
     public void release() {}
