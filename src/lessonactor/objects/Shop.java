@@ -10,9 +10,25 @@ import java.util.Iterator;
 import java.util.List;
 
 public abstract class Shop implements Iterable<Product> {
-    public static List<Product> products;
+    protected String nameShop;
+    protected static List<Product> products;
 
-    public static Iterator<Product> productIterator() {
+    public Shop(String name) {
+        this.nameShop = name;
+        this.products = new ArrayList<>();
+    }
+
+    public void addProduct(Product product) {
+        this.products.add(product);
+    }
+
+    public String getNameShop() {
+        return nameShop;
+    }
+
+    public abstract int getProductsCount();
+
+    public Iterator<Product> productIterator() {
         return new IteratorProduct(products);
     }
 
