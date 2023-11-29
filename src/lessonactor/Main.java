@@ -2,7 +2,6 @@ package lessonactor;
 
 import domain.PrType;
 import domain.Product;
-import lessonactor.objects.*;
 
 import java.util.ArrayList;
 import java.util.Collections;

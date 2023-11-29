@@ -1,4 +1,4 @@
-package lessonactor.objects;
+package lessonactor;
 
 import domain.Product;
 

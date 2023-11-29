@@ -1,5 +1,6 @@
 package lessonactor.objects;
 
+import lessonactor.Order;
 import lessonactor.interfaces.ActorBehavior;
 
 public abstract class Actor implements ActorBehavior {

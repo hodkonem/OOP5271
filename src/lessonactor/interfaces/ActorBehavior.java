@@ -1,6 +1,6 @@
 package lessonactor.interfaces;
 
-import lessonactor.objects.Order;
+import lessonactor.Order;
 
 public interface ActorBehavior {
     void generateNumber();

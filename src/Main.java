@@ -10,7 +10,7 @@ import service.VendingMachine;
 import java.util.ArrayList;
 import java.util.List;
 
-public class App {
+public class Main {
 
     private static List<Product> products;
 

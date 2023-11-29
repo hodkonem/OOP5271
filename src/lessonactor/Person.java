@@ -1,4 +1,6 @@
-package lessonactor.objects;
+package lessonactor;
+
+import lessonactor.objects.Actor;
 
 public class Person extends Actor {
     @Override
