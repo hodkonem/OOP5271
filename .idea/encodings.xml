@@ -7,12 +7,12 @@
     <file url="file://$PROJECT_DIR$/src/lesson004Solid/task1solid/GenDemo.java" charset="windows-1251" />
     <file url="file://$PROJECT_DIR$/src/lesson004Solid/task2/SimpGen.java" charset="windows-1251" />
     <file url="file://$PROJECT_DIR$/src/lesson004Solid/task2/TwoGen.java" charset="windows-1251" />
-    <file url="file://$PROJECT_DIR$/src/lesson004Solid/task3/BoundsDemo.java" charset="windows-1251" />
-    <file url="file://$PROJECT_DIR$/src/lesson004Solid/task3/BoundsDemo.java" charset="windows-1251" />
-    <file url="file://$PROJECT_DIR$/src/lesson004Solid/task3/Pair.java" charset="windows-1251" />
-    <file url="file://$PROJECT_DIR$/src/lesson004Solid/task3/Pair.java" charset="windows-1251" />
-    <file url="file://$PROJECT_DIR$/src/lesson004Solid/task4/NumericFns.java" charset="windows-1251" />
-    <file url="file://$PROJECT_DIR$/src/lesson004Solid/task4/WildcardDemo.java" charset="windows-1251" />
+    <file url="file://$PROJECT_DIR$/src/lesson004Solid/task3solid/BoundsDemo.java" charset="windows-1251" />
+    <file url="file://$PROJECT_DIR$/src/lesson004Solid/task3solid/BoundsDemo.java" charset="windows-1251" />
+    <file url="file://$PROJECT_DIR$/src/lesson004Solid/task3solid/Pair.java" charset="windows-1251" />
+    <file url="file://$PROJECT_DIR$/src/lesson004Solid/task3solid/Pair.java" charset="windows-1251" />
+    <file url="file://$PROJECT_DIR$/src/lesson004Solid/task4solid/NumericFns.java" charset="windows-1251" />
+    <file url="file://$PROJECT_DIR$/src/lesson004Solid/task4solid/WildcardDemo.java" charset="windows-1251" />
     <file url="PROJECT" charset="UTF-8" />
   </component>
 </project>
