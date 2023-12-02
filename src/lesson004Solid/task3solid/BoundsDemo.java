@@ -1,5 +1,7 @@
-package lesson004Solid.task3;
+package lesson004Solid.task3solid;
 
+// класс BoundsDemo соответствует принципу единственной ответственности (Single Responsibility Principle):
+//  ќн отвечает за демонстрацию использовани€ класса `Pair` и вывод значений в консоль.
 public class BoundsDemo {
     public static void main(String[] args) {
         // —оздание объекта Pair с двум€ Integer значени€ми.
